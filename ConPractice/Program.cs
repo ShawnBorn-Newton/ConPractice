@@ -109,7 +109,7 @@ namespace ConPractice
 
             //Console.WriteLine("Now type your second number and press enter.");
             //double secondNum = double.Parse(Console.ReadLine());
-            
+
             //if(firstNum > secondNum)
             //{
             //    Console.WriteLine(firstNum + "is bigger.");
@@ -122,6 +122,23 @@ namespace ConPractice
             //{
             //    Console.WriteLine("These numbers are equaly awsome.");
             //}
+            Console.WriteLine("Lets find the mean of four numbers.");
+            Console.WriteLine("Please enter your first number and press enter.");
+            double first = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter your second number and press enter.");
+            double second = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter your thired number and press enter.");
+            double thired = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter your fourth number and press enter.");
+            double fourth = double.Parse(Console.ReadLine());
+
+            double mean = (first + second + thired + fourth) / 4;
+            Console.WriteLine(mean + " is the mean, or average of your four numbers."); 
+
+
         }
     }
 }
