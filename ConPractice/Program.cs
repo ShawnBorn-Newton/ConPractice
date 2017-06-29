@@ -18,7 +18,7 @@ namespace ConPractice
             ////enter secon number
             //Console.WriteLine("Please enter your second number and press Enter.");
             //double secondNum = double.Parse(Console.ReadLine());
-            
+
             ////if equal else not
             //if (firstNum == secondNum)
             //{
@@ -46,6 +46,20 @@ namespace ConPractice
             //{
             //    Console.WriteLine("This numer is odd.");
             //}
+
+            // exersice 3
+            Console.WriteLine("Is your number possitive or negative?");
+
+            Console.WriteLine("Please enter your number and press enter.");
+            double num = double.Parse(Console.ReadLine());
+            if (num >= 0)
+            {
+                Console.WriteLine("ARRG THIS NUMBARE BE POSSITIVE SO IT BEEE.");
+            }
+            else
+            {
+                Console.WriteLine("Yeah its like, totaly negative guy.");
+            }
         }
     }
 }
