@@ -29,7 +29,7 @@ namespace ConPractice
             //    Console.WriteLine("These number are so not equal.");
             //}
 
-            ////exerise 2
+            ////exercise 2
             //Console.WriteLine("Is your number even or odd? Let's find out!");
             ////enter number
 
@@ -47,19 +47,61 @@ namespace ConPractice
             //    Console.WriteLine("This numer is odd.");
             //}
 
-            // exersice 3
-            Console.WriteLine("Is your number possitive or negative?");
+            // exercise 3
+            //Console.WriteLine("Is your number possitive or negative?");
 
-            Console.WriteLine("Please enter your number and press enter.");
-            double num = double.Parse(Console.ReadLine());
-            if (num >= 0)
-            {
-                Console.WriteLine("ARRG THIS NUMBARE BE POSSITIVE SO IT BEEE.");
-            }
-            else
-            {
-                Console.WriteLine("Yeah its like, totaly negative guy.");
-            }
+            //Console.WriteLine("Please enter your number and press enter.");
+            //double num = double.Parse(Console.ReadLine());
+            //if (num >= 0)
+            //{
+            //    Console.WriteLine("ARRG THIS NUMBARE BE POSSITIVE SO IT BEEE.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yeah its like, totaly negative guy.");
+            //}
+
+            //exercise 4
+            //Console.WriteLine(" Is it a letter and vowel or consonant?");
+            //Console.WriteLine("Please type a letter and press enter.");
+
+            //string letter = Console.ReadLine();
+            //switch(letter)
+            //{
+            //    case "a":
+            //    case "A":
+            //            Console.WriteLine("ITS A VOWEL");
+            //        break;
+            
+            //    case "e":
+            //    case "E":
+            //            Console.WriteLine("ITS A VOWEL");
+            //    break;
+
+            //    case "i":
+            //    case "I":
+            //        Console.WriteLine("ITS A VOWEL");
+            //        break;
+
+            //    case "o":
+            //    case "O":
+            //        Console.WriteLine("ITS A VOWEL");
+            //        break;
+
+            //    case "u":
+            //    case "U":
+            //        Console.WriteLine("ITS A VOWEL");
+            //        break;
+
+            //    case "y":
+            //    case "Y":
+            //        Console.WriteLine("ITS A VOWEL (but only some times...)");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("ITS A CONSONANT");
+            //        break;
+            //}
         }
     }
 }
