@@ -72,7 +72,7 @@ namespace ConPractice
             //    case "A":
             //            Console.WriteLine("ITS A VOWEL");
             //        break;
-            
+
             //    case "e":
             //    case "E":
             //            Console.WriteLine("ITS A VOWEL");
@@ -101,6 +101,26 @@ namespace ConPractice
             //    default:
             //        Console.WriteLine("ITS A CONSONANT");
             //        break;
+            //}
+            //exercise 5
+            //Console.WriteLine("Let's see what number is bigger.");
+            //Console.WriteLine("Please type your first number and press enter.");
+            //double firstNum = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Now type your second number and press enter.");
+            //double secondNum = double.Parse(Console.ReadLine());
+            
+            //if(firstNum > secondNum)
+            //{
+            //    Console.WriteLine(firstNum + "is bigger.");
+            //} 
+            //else if(firstNum < secondNum)
+            //{
+            //    Console.WriteLine(secondNum + "is bigger.");
+            //} 
+            //else
+            //{
+            //    Console.WriteLine("These numbers are equaly awsome.");
             //}
         }
     }
